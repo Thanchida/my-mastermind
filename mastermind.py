@@ -59,7 +59,6 @@ game.start()
 guess = game.num_guess()
 answer = Answer(guess)
 correct = random.sample(range(1, 8), position)
-print(correct)
 n = 0
 while True:
     answer.check_num(correct)
